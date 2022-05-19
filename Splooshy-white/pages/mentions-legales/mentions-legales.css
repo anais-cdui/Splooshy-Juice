@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nosifer&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(33, 33, 33);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.menu nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    
+}
+
+.navbar__link a:hover {
+    color: whitesmoke;
+    background: rgb(0, 0, 0, 0.5);
+    background-color:  rgb(218, 211, 211);
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+    border-radius: 10px;
+
+}
+.menu{
+    background-image: url(../../../Splooshy/media/img/backgroundimg2.png);
+    background-repeat: repeat-y;
+    background-size: contain;
+    width: 100%;
+}
+
+.navBar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    outline: none;
+    cursor: pointer;
+    font-size: 3vh;
+    border-radius: 10px;
+    border: 0;
+    padding: 2vh;
+    color: whitesmoke;
+    overflow: hidden ;
+}
+
+.menu li, .dashboard li{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    text-align: center;
+
+    padding-bottom: 20px;
+}
+
+.empty-horizon {
+    height: 4px;
+    background-color: rgb(243, 224, 224);
+}
+
+.logo img{
+    width: 100%;
+    padding-top: 30px;
+}
+
+h1{
+    font-family: 'Nosifer', cursive;
+    text-align: center;
+    font-size: 60px;
+    padding: 100px;
+}
+
+
+.mentions-legales{
+    background-image: url(../../../Splooshy/media/img/backgroundimg.png);
+    background-repeat: repeat-y;
+    background-size: contain;
+    width: 100%;
+}
+
+.main_container{
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.main_text p{
+    text-align: justify;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.mentions-legales img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 750px;
+}
+
+p{
+    text-align: center;
+    padding: 10px;
+}
+
+#bouttonverhaut{
+    float: right;
+    
+}
+
+.footer{
+    padding-top: 60px;
+    border-top: solid 4px white;
+    padding-bottom: 60px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 20px;
+    align-items: center;
+}
+.footer a{
+    padding: 30px;
+}
+span{
+    font-size: 20px;
+}
+.ft-sociaux{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.ft-link{
+    display: flex;
+    justify-content: space-around;
+}
+.ft-legal-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 1000px){
+    .main_text p{
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    h1{
+        font-size: 60px;
+    }
+    
+}
+
+@media screen and (max-width: 800px){
+    .mentions-legales img{
+       width: 400px;
+    }
+    
+}
+
+
+@media screen and (max-width: 635px){
+    h1{
+        font-size: 25px;
+        text-align: center;
+        margin: auto;
+    }
+
+    html {
+        font-size: 20px;
+    }
+    
+}

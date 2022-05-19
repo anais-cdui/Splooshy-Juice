@@ -1,0 +1,218 @@
+
+/* variables */
+:root {
+    --font-size: 1rem;
+}
+.light-mode{
+    --navbar-color:#f0f0f0;
+    --navbar-bg-color: #222;
+}
+.dark-mode{
+    --navbar-color:#f0f0f0;
+    --navbar-bg-color: #222;
+}
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+/* html {
+    background-color: rgb(33, 33, 33);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: whitesmoke;
+} */
+ul{
+    list-style: none;
+}
+/* basic style */
+body{
+    font-size:var(--font-size);
+    font-family: 'Montserrat', sans-serif;
+}
+.main-content{
+    padding: 1rem;
+}
+/* .navbar{
+    border: 1px solid red ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    color:var(--navbar-color);
+    background: var(--navbar-bg-color);
+    list-style-type: none;
+    width: 100%;
+}
+.navbar__links{
+    display: flex;
+}
+.navbar__link{
+    padding: 0 10px;   
+}
+.navbar__link > a {
+    text-decoration: none;
+    color: var(--navbar-color);
+}
+/* .menu nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    color:var(--navbar-color);
+    background: var(--navbar-bg-color);
+    list-style-type: none;
+    width: 100%;
+} */
+.burger{
+    display: none;
+} */
+
+/* small divices */
+/* @media screen and (max-width:767.98px) {
+    .navbar__links{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: calc(100vh - 100px);
+        position: absolute;
+        top: 100px;
+        right: 0;
+        background: var(--navbar-bg-color);
+        transition: all .5s ease-in-out;
+    }
+    .show-nav .navbar__links{
+        width: 100%;
+    }
+    .navbar__link{
+        transform: translateX(101%);
+    }
+    .show-nav .navbar__link{
+        transform: translateX(0);
+    }
+    .navbar__link > a {
+        display: block;
+        padding:1rem;
+        font-size:1.6rem;
+        transition:all .4s ease-in-out;
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    .navbar__link > a:hover {
+        padding-left: 2rem;
+        letter-spacing: 5px;
+    }
+    /* toggle menu */
+    .burger{
+        display: block;
+        position: relative;
+        padding: 0;
+        width: 45px;
+        height: 45px;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+    .bar{
+        display: block;
+        width: 45px;
+        height: 4px;
+        background: var(--navbar-color);
+        border-radius: 3px;
+        transition: all .5s ease-in-out;
+    }
+    .show-nav .bar{
+        width: 0;
+        background: transparent;
+    }
+    .bar::before, .bar::after {
+        content: "";
+        width: 45px;
+        height: 4px;
+        position: absolute;
+        background: var(--navbar-color);
+        border-radius: 3px;
+        transition: all .5s ease-in-out;
+    }
+    .bar::before{
+        transform: translateY(-12px);
+    }
+    .show-nav .bar::before {
+        transform: rotate(45deg);
+    }
+    .bar::after{
+        transform: translateY(12px);
+    }
+    .show-nav .bar::after {
+        transform: rotate(-45deg);
+    }
+    /* bonus - animations */
+    .show-nav .first{
+        transition: all 1s ease-out;
+    }
+    .show-nav .second{
+        transition: all 1.1s ease-out;
+    }
+    .show-nav .third{
+        transition: all 1.2s ease-out;
+    }
+    .show-nav .four{
+        transition: all 1.3s ease-out;
+    }
+    .show-nav .fifth{
+        transition: all 1.4s ease-out;
+    }
+    
+} */
+
+/* a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: rgb(0, 255, 242);
+} */
+
+/* .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../media/img/backgroundimg2.png);
+    background-repeat: repeat-y;
+    background-size: contain;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+} */
+/* .menu li{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+} */
+
+.logo img{
+    width: 100%;
+    padding-top: 30px;
+}
+/* media devices */
+/* @media screen and (min-width:768px){
+    .navbar__link> a::after{
+        display: block;
+        content: "";
+        width: 0;
+        height: 1px;
+        background: var(--navbar-color);
+        transition:width .4s;
+    }
+    .navbar__link:hover > a::after{
+        width: 100%;
+    }
+    
+} */
